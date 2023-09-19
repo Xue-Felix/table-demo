@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <c-table />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CTable from './components/CTable.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    CTable,
+  },
+};
 </script>
 
 <style>
